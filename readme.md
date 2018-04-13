@@ -1,4 +1,4 @@
-실행방법
+﻿실행방법
 
 세팅
 vscode, vscode plugin::python_4개, mariaDB_pw:ch11_port:3307 설치 후
@@ -7,7 +7,7 @@ mariaDB client에서 패스워드:ch11 입력하고
 db.sql에 있는 코드 전체 복사> 붙여넣기
 
 관리자::cmd에서
-pip install selenium bs4 pymysql pymysql
+pip install selenium bs4 pymysql
 
 vscode에서
 폴더 열기> 해당 폴더를 선택
