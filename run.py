@@ -44,7 +44,7 @@ driver.get(main_url)
 # id: SearchGNBText
 # send_keys: 검색어 넣기
 driver.find_element_by_id('SearchGNBText').send_keys(keyword)
-# path= '//*[@id="SearchGNBText"]'
+# path= '//*[@id="SearchGNBText"]' 안됨
 
 # 수정할 경우> 뒤에 내용이 붙어버림
 # 먼저 .clear() -> send_keys('내용')
